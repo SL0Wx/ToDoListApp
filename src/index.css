@@ -11,3 +11,76 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.newToDoForm, .editToDoForm {
+  width: 25%;
+  margin: 0 auto;
+  position: absolute;
+  top: 25%;
+  left: 37.5%;
+  padding: 2rem;
+  border-radius: 10px;
+  background-color: #40444b;
+  color: white;
+  border: 3px solid black;
+  z-index: 10;
+}
+
+.closeBtn {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 10;
+}
+
+.toDoList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.filterBox {
+  display: inline-flex;
+  margin: 10px;
+}
+
+.toDoBox {
+  display: inline-flex;
+  width: 33%;
+  height: 150px;
+  background-color: #2f3136;
+  border-radius: 5px;
+  margin: 2px auto;
+}
+
+.toDoAcordation {
+  width: 100%;
+}
+
+.acordationHeader {
+  display: inline-flex;
+  width: 95%;
+  justify-content: space-between;
+}
+
+.manageButtons {
+  display: inline-flex;
+  justify-content: flex-end;
+  width: 100%;
+}
+
+.editBtn, .deleteBtn, .addItemBtn, .filterText {
+  margin: 10px;
+}
+
+.saveBtn {
+  margin-top: 20px;
+}
+
+.errorValidation {
+  display: flex;
+  justify-content: center;
+  color: rgb(255, 55, 55);
+}
